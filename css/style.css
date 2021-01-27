@@ -1,0 +1,183 @@
+body{
+  color:#333;
+  font-family: ”Verdana”,”sans-serif”;
+  margin: 0;
+}
+
+header {
+  background-color:mistyrose;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
+.container{
+  /* background-color:orchid; */
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  /* background-color: powderblue; */
+}
+
+.icon img{
+  /* border-radius: 20px; */
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color:wheat;
+}
+
+.info{
+  /* background-color: rosybrown; */
+  margin-left: 32px;
+}
+
+.info h1{
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p{
+  margin: 0;
+  margin-bottom: 16px;
+
+}
+
+.info ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display:flex;
+}
+
+.info ul li{
+  margin-right: 8px;
+}
+
+.profile {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile h1{
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.profile img{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile > section > h1 img{
+  width: 800px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.profile > section{
+  margin-bottom: 60px;
+}
+
+.profile > section > h1{
+  font-weight: normal;
+}
+
+.profile p{
+  line-height: 1.8;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: grey;
+}
+
+.media{
+  text-align: center;
+}
+
+.media ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 4;
+}
+
+.japanmedia ul{
+  list-style-type: none;
+  text-align: center;
+  line-height: 4;
+}
+
+.balloon{
+  display: flex;
+  margin: 0 0 1.5em 0;
+}
+
+.balloonR{
+  flex-direction: row-reverse;
+}
+
+.balloon-img{
+  width: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.balloon-text{
+  padding: 1em;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+}
+
+.balloon-text-inner{
+  margin:auto;
+}
+
+.balloon-text::before,.balloon-text::after{
+  content:"";
+  top: 19px;
+  font-size: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.balloonL .balloon-text{
+  margin:0 0 0 15px;
+  background: #ddbcff;
+}
+
+.balloonR .balloon-text{
+  margin: 0 15px 0;
+  border: 15px;
+  background: #bdffb7;
+}
+
+.balloonL .balloon-text::before{
+  left:-16pc;
+  border-right: 16px solid #ddbcff;
+}
+
+.balloonR .balloon-text::before{
+  right:-16px;
+  border-left:16px solid #bdffb7;
+}
+
+.balloonL img{
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color:wheat;
+}
